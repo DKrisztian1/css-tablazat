@@ -1,0 +1,93 @@
+html
+{
+background-image: url(images/water.jpg);
+font-family: Arial;
+}
+
+table
+{
+table-layout: fixed;
+empty-cells: hide;
+border-spacing: 7px;
+height: 60%;
+width: 55%;
+border: 5px ridge blue;
+margin:auto;
+margin-top: 10%;
+text-align: center;
+border-radius: 30px;
+padding: 10px;
+background-color: rgba(125, 157, 218, 80%);
+}
+
+th
+{
+color: rgb(255, 51, 51);
+background-color: rgb(112, 145, 253);
+border: 2px solid blue;
+border-radius: 30px 0px;
+width: 30px;
+height: 30px;
+box-shadow: 3px 3px 2px rgb(16, 16, 53);
+}
+
+td
+{
+background-color: rgb(183, 221, 255);
+color: midnightblue;
+border: 2px solid blue;
+border-radius: 20px;
+width: 30px;
+height: 30px;
+box-shadow: 3px 3px 2px rgb(16, 16, 53);
+}
+
+.adat
+{
+background-color: rgb(81, 173, 253);
+color: white;
+border: 2px solid blue;
+border-radius: 30px 0px;
+width: 30px;
+height: 30px;
+box-shadow: 3px 3px 2px rgb(16, 16, 53);
+}
+
+img
+{
+width:150px;
+height:100px; 
+border: 2px none;
+border-radius: 30px;
+padding: 5px;
+}
+
+caption
+{
+background-color: rgba(49, 49, 238, 80%);
+border:5px solid rgb(124, 170, 255);
+border-radius: 20px;
+margin-bottom: 10px;
+width: 90%;
+text-align: center;
+margin:auto;
+color: white;
+}
+
+ul
+{
+text-align: left;
+}
+
+a
+{
+text-decoration: none;
+color: red;
+}
+
+.nev:hover
+{
+border-color: red;
+transition: 0.4s;
+background-color: rgba(165, 92, 92, 0.514);
+}
